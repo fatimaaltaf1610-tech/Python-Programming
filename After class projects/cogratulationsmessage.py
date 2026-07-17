@@ -1,0 +1,7 @@
+congratulatory_message = input("Send a congrats: ")
+upper_congratulatory_message = congratulatory_message.upper()
+print(upper_congratulatory_message)
+ucm_s = type(upper_congratulatory_message)
+print("type of message: ", ucm_s)
+ucm_l = len(upper_congratulatory_message)
+print("length of message: ", ucm_l)
